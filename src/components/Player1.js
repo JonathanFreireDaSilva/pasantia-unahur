@@ -1,0 +1,26 @@
+import React, { Component } from 'react'
+import './Player1.css';
+
+
+export default class Player1 extends React.Component {
+
+    state={
+        ganadas:0,
+        perdidas:0
+     }
+  
+         render() {
+             return (
+                  
+               <label className="equis">X 
+                <br/> 
+                <label>Ganadas : {this.state.ganadas}</label> 
+                 <br/> <label> Perdidas : {this.state.perdidas}
+                </label> 
+                 </label>
+         
+     
+             )
+         }
+     }
+     
